@@ -1,9 +1,13 @@
 import React from 'react';
+import Button from './Button';
 import '../App.css';
 
 const Reports= () => {
   return (
-    <h3>reports will go here</h3>
+    <div>
+      <h3>reports will go here</h3>
+      <Button />
+    </div>
     )
 }
 export default Reports; 
