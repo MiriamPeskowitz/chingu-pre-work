@@ -102,6 +102,14 @@ a {
 .risk-report-technology {
   margin-left: 10%;
 }
+
+.text {
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 0px;
+  font-size: 12px;
+}
  
 
 .footer-container {
