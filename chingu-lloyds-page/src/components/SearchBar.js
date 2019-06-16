@@ -3,7 +3,7 @@ import '../App.css';
 
 const SearchBar = () => {
   return (  
-    <li className="searchbar">Search</li>  
+    <span className="searchbar">Search</span>  
   )   
 }
 export default SearchBar;

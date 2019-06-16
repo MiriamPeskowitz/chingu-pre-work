@@ -3,7 +3,7 @@ import '../App.css';
 
 const SecondNavBar = () => {
   return (
-    <nav classname="second-nav-container">
+    <nav className="second-nav-container">
       <ul className="second-nav">
         <li> News and risk insight</li>
         <li> Market directory</li>

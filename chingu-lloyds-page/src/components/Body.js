@@ -6,11 +6,11 @@ import '../App.css';
 
 const Body = () => {
   return (
-    <body >
+    <div>
       <RiskReportTechnology />
       <Text />
       <Reports />
-    </body>
+    </div>
   )
 }
 export default Body;

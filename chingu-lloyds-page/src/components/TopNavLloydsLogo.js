@@ -3,7 +3,7 @@ import '../App.css';
 
 const TopNavLloydsLogo = () => {
   return (
-      <li className="logo" > <a href="https://www.lloyds.com/">LLOYDS</a> </li>
+      <span className="logo" > <a href="https://www.lloyds.com/">LLOYDS</a> </span>
     )
 }
 export default TopNavLloydsLogo;

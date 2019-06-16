@@ -6,20 +6,12 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <React.Fragment>
       <Header />
       <Body /> 
-      <Footer />
-    </div>    
+      <Footer /> 
+    </React.Fragment>   
   );
 }
 
 export default App;
-{/*<a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        > 
-        </a>
-    */}
