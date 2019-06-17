@@ -95,13 +95,34 @@ a {
 
 }
 .risk-report-technology-container {
-  background-color: #E1E6DB;
+  background-color:   #F1F1F1;
   padding-bottom: 2px;
 }
 
 .risk-report-technology {
   margin-left: 10%;
+  padding-top: 10px;
 }
+
+.risk-report-technology h5 {
+  color: #909090;
+}
+
+.taking-control-text {
+  color: #141414;
+  font-size: 13px;
+}
+
+.taking-control {
+  color: #262626;
+  font-size: 48px;
+}
+
+ .share-button {
+  background-color:  #F1F1F1;
+  margin: 10px;
+  padding: 10px;
+ }
 
 .text {
   background-color: white;
@@ -112,10 +133,18 @@ a {
 }
  
 
+button {
+  background-color: #064EB2;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+  margin: 10px;
+}
+
 .footer-container {
   background-color:   #1a1a1a;
-  color: white;
-  font-size: 12px;
+  color: #FAFAFA;
+  font-size: 14px;
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
@@ -137,10 +166,12 @@ a {
   margin-left: 10%;
 }
 
-button {
-  background-color: #064EB2;
-  color: white;
-  font-size: 14px;
-  padding: 10px;
-  margin: 10px;
+.social-share-buttons {
+  display: inline-flex;
+  flex-flow: row nowrap;
+/*  justify-content: space-evenly;*/
+  margin-left: 10%;
+}
+
+.social-share-buttons a {
 }

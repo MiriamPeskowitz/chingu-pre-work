@@ -1,6 +1,7 @@
 import React from 'react';
 import FooterNavbar from './FooterNavbar';
 import FooterSocialShare from './FooterSocialShare';
+import '../../App.css';
 
 const Footer = () => {
   return (

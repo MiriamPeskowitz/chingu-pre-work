@@ -1,1 +1,0 @@
-RiskReportTechnology.js

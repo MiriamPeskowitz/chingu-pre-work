@@ -1,6 +1,7 @@
 import React from 'react';
+import '../../App.css';
 
-const Button = () => {
+const DownloadButton = () => {
   return (
     <button>
       Download
@@ -8,4 +9,4 @@ const Button = () => {
     )
 }
 
-export default Button; 
+export default DownloadButton; 

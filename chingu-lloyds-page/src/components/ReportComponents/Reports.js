@@ -1,12 +1,12 @@
 import React from 'react';
-import Button from './Button';
-import '../App.css';
+import DownloadButton from './DownloadButton';
+import '../../App.css';
 
 const Reports= () => {
   return (
     <div>
       <h3>reports will go here</h3>
-      <Button />
+      <DownloadButton />
     </div>
     )
 }

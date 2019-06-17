@@ -1,7 +1,7 @@
 import React from 'react';
 import TopNav from './TopNav';
 import SecondNav from './SecondNav';
-import '../App.css';
+import '../../App.css';
 
 const Header = () => {
   return (
