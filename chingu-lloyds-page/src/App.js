@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/HeaderComponents/Header';
 import RiskSectionOutline from './components/RiskSectionComponents/RiskSection';
+import Reports from './components/ReportComponents/Reports';
 import Footer from './components/FooterComponents/Footer';
 import './App.css';
 

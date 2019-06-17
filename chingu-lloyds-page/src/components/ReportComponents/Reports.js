@@ -1,17 +1,16 @@
 import React from 'react';
-import DownloadButton from './DownloadButton';
+import ReportAI from "./ReportAI";
+import ReportRobots from "./ReportRobots";
 import '../../App.css';
 
-const Reports= () => {
+const Reports = () => {
   return (
     <div>
-      <h3>reports will go here</h3>
-      <DownloadButton />
+      <ReportAI />
+      <ReportRobots />
     </div>
-    )
+  )
 }
-export default Reports; 
+export default Reports;
 
-// will have image , title, description, download button 
-// div for image 
-// div for title, description, button
+//note: the two report pages can be refactored into one template, with the data in a seed file or an API. Redundant but okay for now. 

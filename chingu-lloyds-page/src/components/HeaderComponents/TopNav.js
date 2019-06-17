@@ -1,7 +1,7 @@
 import React from 'react';
 import TopNavLloydsLogo from './TopNavLloydsLogo';
 import SearchBar from './SearchBar';
-import '../App.css';
+import '../../App.css';
 
 const TopNav = () => {
   return (

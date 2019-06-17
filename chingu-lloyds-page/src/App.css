@@ -133,6 +133,17 @@ a {
 }
  
 
+.report-container {
+  padding: 28px 14px;
+  display: flex;
+} 
+
+.report-title-and-description {
+  color: #141414;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
 button {
   background-color: #064EB2;
   color: white;
