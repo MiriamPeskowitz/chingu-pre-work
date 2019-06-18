@@ -14,3 +14,5 @@ const Reports = () => {
 export default Reports;
 
 //note: the two report pages can be refactored into one template, with the data in a seed file or an API. Redundant but okay for now. 
+
+//MAKE THIS RESPONSIVE 

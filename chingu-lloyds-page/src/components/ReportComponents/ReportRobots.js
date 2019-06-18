@@ -6,7 +6,7 @@ const ReportRobots= () => {
   return (
     <div className="report-container">
       <div className="report-image">
-      <img src="https://www.lloyds.com/~/media/files/news-and-insight/risk-insight/2019/robots-thumbnail.png" alt="image of report cover page" />
+      <img src="https://www.lloyds.com/~/media/files/news-and-insight/risk-insight/2019/robots-thumbnail.png" alt="report cover page" />
       </div>
       <div className="report-title-and-description" >
         <h2 className="title">Taking control:robots and risk</h2>

@@ -6,7 +6,7 @@ import '../../App.css';
 const Header = () => {
   return (
    <header> 
-    <nav className="top-nav-container">
+    <nav className="header-container">
       <TopNav />
       <SecondNav />
     </nav>
@@ -14,3 +14,5 @@ const Header = () => {
   )
 }
 export default Header;
+
+//WORK ON THIS< TO SEPARATE AND SIZE THE 2 NAVBARS. WILL BE GOOD TO FEEL REALLY COMFORTABLE WITH NAVBARS, TOO. 

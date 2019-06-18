@@ -6,14 +6,13 @@ const ReportAI= () => {
   return (
     <div className="report-container">
       <div className="report-image">
-      <img src="https://www.lloyds.com/~/media/files/news-and-insight/risk-insight/2019/taking-control-thumb.png" alt="image of report cover page" />
+        <img src="https://www.lloyds.com/~/media/files/news-and-insight/risk-insight/2019/taking-control-thumb.png" alt="report cover page" />
       </div>
       <div className="report-title-and-description" >
-        <h2 className="title">Taking control:robots and risk</h2>
-        <p className="description">In the future millions of jobs could be taken over by increasingly sophisticated robots or cobots (“collaborative robots”), according to various predictions. This report explores robotics potential to significantly change the risk landscape in many parts of the economy, including: manufacturing, agriculture, healthcare and retail. It also explores the opportunity for insurers to collaborate with clients as data from cobots will provide a much greater understanding of risk and offer opportunities for improved risks and pricing models.</p>
+        <h2 className="title">Taking control: artificial intelligence and insurance</h2>
+        <p className="description">This report identifies four risks areas for AI: trust and transparency, ethics, security and safety. It highlights that as artificial intelligence systems become more complex, cyber breaches are likely to have an even greater impact. The report also explores new business opportunities for insurers from developing new products for companies using the AI to applying the technology to improve insurance processes and deliver better value.</p>
          <DownloadButton />
-      </div>
-     
+      </div>    
     </div>
     )
 }

@@ -4,46 +4,52 @@ header, body, footer {
   padding: 5px;*/
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-li {
-  background-color: white;
-  color: black;
- 
-  list-style-type: none;
-  display: inline-block;
-  border-right: 1px solid gray;
-  padding: 5px;
-  vertical-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 12px;
-}
-
-a {
-  color: gray;
-}
-/* set grid here for top nav bar  */
 .top-nav-container {
   background-color: 'white';
   color: 'black';
   border: 1px solid black;
   width: 90%;
-  display: inline-flex;
+  display: flex;
   flex-flow: row nowrap;
-  justify-content: space-evenly;
   margin-left: 10%;
+  margin-bottom: 0;
+
 }
 
 .logo {
-  background-color: black;
-  color: white;
-  border-right: none;
 
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+
+  text-align: center;/* this centers the inline elements for li children */
+}
+ul-container {
+    display:inline;
+}
+
+li {
+  background-color: white;
+  color: #141414;
+  list-style-type: none;
+  display: inline-block;
+  border-right: 1px solid gray;
+  padding: 5px;
+  vertical-align: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 12px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
 }
 
 /* style links in nav bar  */
@@ -52,18 +58,12 @@ a {
   text-align: center;
 }
 
+
 .topnav a:hover {
-  background-color: ;
-  color: ;
-  cursor: 'pointer';
 }
 
 .topnav a:active {
 
-}
-
-.top-nav-container {
-  /* may have the grid */
 }
 
 .searchbar {
@@ -71,21 +71,19 @@ a {
   border-bottom: black;
 }
 
-.second-nav-container .second-nav {
-  background-color: yellow;
-}
 
-.second-nav {
+.second-nav-container {
   background-color: 'white';
   color: 'black';
   border: 1px solid black;
   width: 90%;
-  display: inline-flex;
+  display: inline-block;
   flex-flow: row nowrap;
   justify-content: space-evenly;
   margin-left: 10%;
-  margin-top: 40px;
+  margin-top: 5%;
 }
+
 
 .second-nav a:hover {
 
@@ -94,6 +92,7 @@ a {
 .second-nav a:active {
 
 }
+
 .risk-report-technology-container {
   background-color:   #F1F1F1;
   padding-bottom: 2px;
@@ -129,19 +128,29 @@ a {
   margin-left: 10%;
   margin-right: 10%;
   padding-bottom: 0px;
-  font-size: 12px;
+  font-size: 14px;
 }
  
-
 .report-container {
-  padding: 28px 14px;
+  display: inline-block;
+  padding: 10px 10px;
   display: flex;
+  margin: 10%;
 } 
 
+.report-image {
+ display:inline-block;
+}
+
 .report-title-and-description {
+  display: inline-block;
   color: #141414;
-  padding-left: 10px;
-  margin-left: 10px;
+  height: 100%;
+  margin-left: 40px;
+}
+
+.report-title-and-description h2 {
+  margin-top: 0;
 }
 
 button {
@@ -149,7 +158,10 @@ button {
   color: white;
   font-size: 14px;
   padding: 10px;
-  margin: 10px;
+}
+
+.footer-wrapper {
+  padding-left: 10px;
 }
 
 .footer-container {
@@ -160,14 +172,30 @@ button {
   padding-bottom: 20px;
 }
 
-.footer-navbar li {
-  padding: 10px;
-  background-color:   #1a1a1a;
-  color: white;
+.footer-navbar  {
   display: inline-flex;
   flex-flow: row nowrap;
+ 
 }
 
+.footer-navbar li {
+  background-color:   #1a1a1a;
+  color: #FAFAFA;
+  font-size: 12px;
+  margin: 0 0 14px;
+  text-decoration: none;
+}
+
+
+.footer-navbar a:hover {
+  background-color:   #1a1a1a;
+  color:#FAFAFA ;
+  cursor: 'pointer';
+}
+
+.footer-navbar a:active {
+
+}
 .copyright {
   margin-left: 10%;
   font-weight: bold;

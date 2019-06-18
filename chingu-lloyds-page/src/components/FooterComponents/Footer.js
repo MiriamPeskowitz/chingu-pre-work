@@ -1,17 +1,15 @@
 import React from 'react';
 import FooterNavbar from './FooterNavbar';
 import FooterSocialShare from './FooterSocialShare';
+import FooterCopyrightText from './FooterCopyrightText';
 import '../../App.css';
 
 const Footer = () => {
   return (
     <div className="footer-container">
-      <FooterNavbar />
+      <FooterNavbar /><br />
       <FooterSocialShare />
-      <section className="copyright">
-        <p>Lloyd's Copyright 2019 </p>
-        <p>Lloyd's is a registered trademark of the Society of Lloyd's. Lloyd's is authorised under the Financial Services and Markets Act 2000.</p>
-      </section>
+      <FooterCopyrightText />
     </div>
   )
 }

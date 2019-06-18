@@ -4,7 +4,7 @@ import '../../App.css';
 const SecondNavBar = () => {
   return (
     <nav className="second-nav-container">
-      <ul className="second-nav">
+      <ul className="nav2">
         <li> News and risk insight</li>
         <li> Market directory</li>
         <li> Market resources</li>
