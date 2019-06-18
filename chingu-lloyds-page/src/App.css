@@ -49,6 +49,7 @@ a:link {
 }
 
 a:visited {
+  color:  #141414;
   text-decoration: none;
 }
 
@@ -92,7 +93,7 @@ a:visited {
 .second-nav a:active {
 
 }
-
+/* Central Section: Taking Control*/
 .risk-report-technology-container {
   background-color:   #F1F1F1;
   padding-bottom: 2px;
@@ -130,7 +131,7 @@ a:visited {
   padding-bottom: 0px;
   font-size: 14px;
 }
- 
+ /*Reports section*/
 .report-container {
   display: inline-block;
   padding: 10px 10px;
@@ -160,16 +161,20 @@ button {
   padding: 10px;
 }
 
+/*Footer Section */
 .footer-wrapper {
-  padding-left: 10px;
+  /*padding-left: 10px;*/
+   margin-left: 54px;
+
 }
 
 .footer-container {
   background-color:   #1a1a1a;
-  color: #FAFAFA;
+  color: #fafafa;
   font-size: 14px;
   margin-bottom: 20px;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .footer-navbar  {
@@ -178,39 +183,48 @@ button {
  
 }
 
+.footer-navbar a {
+  color: #fafafa;
+  font-size: 16px;
+}
+
 .footer-navbar li {
   background-color:   #1a1a1a;
-  color: #FAFAFA;
-  font-size: 12px;
-  margin: 0 0 14px;
-  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  margin: 10px 0 14px;
+  list-style-type: none;
+ /* display: inline-block;*/
+  border-right: 1px solid gray;
+  padding: 5px;
+  vertical-align: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-
-.footer-navbar a:hover {
-  background-color:   #1a1a1a;
-  color:#FAFAFA ;
-  cursor: 'pointer';
+.footer-navbar li:hover {
+  text-decoration: underline;
 }
 
-.footer-navbar a:active {
-
-}
 .copyright {
+  margin-top: 5%;
   margin-left: 10%;
   font-weight: bold;
 }
 
 .share {
-  margin-left: 10%;
+  margin-left: 5%;
 }
 
 .social-share-buttons {
   display: inline-flex;
-  flex-flow: row nowrap;
+/*  flex-flow: row nowrap;*/
+  flex: 10%;
 /*  justify-content: space-evenly;*/
   margin-left: 10%;
 }
 
 .social-share-buttons a {
+
 }
