@@ -7,3 +7,9 @@ https://chingu.gitbook.io/chingu-handbook-voyage-9/cohort-guide/pre-work/task-3-
 ###
 Will look like this: https://www.lloyds.com/news-and-risk-insight/risk-reports/library/technology/taking-control
 
+###
+Still to do: 
+--make it responsive
+--hamburger menu
+--replicate the font 
+--modularize the css to the components

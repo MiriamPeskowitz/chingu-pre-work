@@ -5,11 +5,11 @@ const SecondNavBar = () => {
   return (
     <nav className="second-nav-container">
       <ul className="nav2">
-        <li> News and risk insight</li>
-        <li> Market directory</li>
-        <li> Market resources</li>
-        <li> Tools and systems</li> 
-        <li> Lloyds around the world</li>
+        <li className="gray"> News and risk insight</li>
+        <li className="blue"> Market directory</li>
+        <li className="blue"> Market resources</li>
+        <li className="blue"> Tools and systems</li> 
+        <li className="blue"> Lloyds around the world</li>
       </ul>
     </nav>  
   )
