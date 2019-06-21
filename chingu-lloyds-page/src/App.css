@@ -94,6 +94,13 @@ a:hover {
   color: white;
 }
 
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;
+  height: 1px;
+}
 /* Central Section: Taking Control*/
 .risk-report-technology-container {
   background-color:   #F1F1F1;

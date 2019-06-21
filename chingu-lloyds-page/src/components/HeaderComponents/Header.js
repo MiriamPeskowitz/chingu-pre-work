@@ -1,6 +1,7 @@
 import React from 'react';
 import TopNav from './TopNav';
 import SecondNav from './SecondNav';
+import Popup from './PopupNav';
 import '../../App.css';
 
 const Header = () => {
@@ -9,6 +10,7 @@ const Header = () => {
     <nav className="header-container">
       <TopNav />
       <SecondNav />
+      <Popup />
     </nav>
   </header>
   )
