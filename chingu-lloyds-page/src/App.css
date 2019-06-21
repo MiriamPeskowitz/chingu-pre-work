@@ -86,8 +86,10 @@ a:hover {
   text-decoration: underline;
 }
 
-a.blue {
-  background-color: #0C275F;
+.blue {
+  background-color:  #0C275F;
+}
+.blue a {
   color: white;
 }
 
