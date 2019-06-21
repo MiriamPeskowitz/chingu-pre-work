@@ -10,7 +10,6 @@ const Header = () => {
     <nav className="header-container">
       <TopNav />
       <SecondNav />
-      <Popup />
     </nav>
   </header>
   )

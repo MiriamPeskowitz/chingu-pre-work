@@ -1,9 +1,10 @@
 import React from 'react';
 import '../../App.css';
-//refactor so it's generic and can hold data for all the 2d nav popups 
+ 
 const Popup = () => {
   return (
-      <h3> News and Risk Insight </h3>
+    <div>
+      <p>News and Risk Insight</p>
       <div><hr /></div>
       <section>
         <ul>
@@ -21,14 +22,16 @@ const Popup = () => {
             <div className="column-three">
               <li>Risk reports </li>
               <li>Lloyd's lab </li>
-              <li>Media centre-0 </li>
+              <li>Media centre </li>
             </div>
         </ul>
 
       </section>
-
+    </div>
 
     )
 }
 
 export default Popup;
+
+//refactor so it's generic and can hold data for all the 2d nav popups
