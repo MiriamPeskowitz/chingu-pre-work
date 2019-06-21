@@ -7,7 +7,6 @@ header, body, footer {
 .top-nav-container {
   background-color: 'white';
   color: 'black';
-  
   width: 90%;
   display: flex;
   flex-flow: row nowrap;
@@ -43,6 +42,7 @@ li:first-child {
   border-left: none;
 }
 
+
 a {
   text-decoration: none;
    color: #141414;
@@ -59,15 +59,22 @@ a:hover {
 
 
 .second-nav-container {
-  background-color: 'white';
-  color: 'black';
-  border: 1px solid black;
+  /*background-color: 'white';
+  color: 'black';*/
+  border-top: 1px solid gray;
   width: 90%;
-  display: inline-block;
+  display: flex;
   flex-flow: row nowrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-left: 10%;
-  margin-top: 5%;
+  margin-top: 0;
+}
+
+.nav2  {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  width: 100%;
 }
 
 .gray {
@@ -75,17 +82,15 @@ a:hover {
  color: black;
 }
 
-.blue {
+.gray:hover {
+  text-decoration: underline;
+}
+
+a.blue {
   background-color: #0C275F;
   color: white;
 }
-.nav2 a:hover {
 
-}
-
-.nav2 a:active {
-
-}
 /* Central Section: Taking Control*/
 .risk-report-technology-container {
   background-color:   #F1F1F1;
@@ -166,6 +171,7 @@ button {
   color: #fafafa;
   font-size: 14px;
   margin-bottom: 20px;
+  margin-left: 20px;
   padding-bottom: 20px;
   padding-top: 20px;
 }
@@ -173,7 +179,7 @@ button {
 .footer-navbar  {
   display: inline-flex;
   flex-flow: row nowrap;
-  margin-left: 20px;
+  margin-left: 14px;
 }
 
 .footer-navbar a {
@@ -182,18 +188,17 @@ button {
 }
 
 .footer-navbar li {
+  display: inline-block;
   background-color:   #1a1a1a;
   color: white;
   font-size: 14px;
-  margin: 10px 0 14px;
+  margin: 10px 0 10px;
   list-style-type: none;
- /* display: inline-block;*/
   border-right: 1px solid gray;
-  padding: 5px;
+  padding: 0;
   vertical-align: center;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+ 
 }
 
 .footer-navbar li:hover {
@@ -216,8 +221,4 @@ button {
   flex: 10%;
 /*  justify-content: space-evenly;*/
   margin-left: 10%;
-}
-
-.social-share-buttons a {
-
 }

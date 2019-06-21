@@ -9,7 +9,7 @@ const TopNav = () => {
       <TopNavLloydsLogo />
       <div className="ul-container">
       <ul className="nav1">
-        <li><a href="https://www.lloyds.com/about-lloyds" target="_blank" rel="noopener noreferrer">About</a></li>
+        <li><a href="https://www.lloyds.com/about-lloyds" target="_blank" rel="noopener noreferrer" >About</a></li>
         
         <li><a href="https://www.lloyds.com/about-lloyds/value_proposition_broker" alt="Info for brokers"> Brokers</a></li>
         <li><a href="https://www.lloyds.com/about-lloyds/value_proposition_broker" alt="Info for coverholders "> Coverholders</a></li>
