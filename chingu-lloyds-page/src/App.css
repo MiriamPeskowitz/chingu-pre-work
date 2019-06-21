@@ -21,7 +21,7 @@ header, body, footer {
 }
 
 ul-container {
-  display:inline-block;
+  display: inline-block;
   border: 1px solid black;
   text-align: center;
 }
@@ -31,8 +31,8 @@ li {
   color: #141414;
   list-style-type: none;
   display: inline-block;
-  border-left: 1px solid gray;
-  padding: 5px;
+  border-left: 1px solid #D3D3D3;
+  padding: 10px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -42,21 +42,7 @@ li {
 li:first-child {
   border-left: none;
 }
-/*
-a:link {
-  text-decoration: none;
-}
 
-a:visited {
-  color:  #141414;
-  text-decoration: none;
-}
-*/
-/* style links in nav bar  */
-/*.topnav a {
-  font-size: ;
-  text-align: center;
-}*/
 a {
   text-decoration: none;
    color: #141414;
@@ -64,15 +50,6 @@ a {
 
 a:hover {
   text-decoration: underline;
-}
-
-.topnav a:active {
-
-}
-
-.topnav a:visited {
-  /*color: #141414;*/
-  
 }
 
 .searchbar {
@@ -93,12 +70,20 @@ a:hover {
   margin-top: 5%;
 }
 
+.gray {
+ background-color: lightgray;
+ color: black;
+}
 
-.second-nav a:hover {
+.blue {
+  background-color: #0C275F;
+  color: white;
+}
+.nav2 a:hover {
 
 }
 
-.second-nav a:active {
+.nav2 a:active {
 
 }
 /* Central Section: Taking Control*/
