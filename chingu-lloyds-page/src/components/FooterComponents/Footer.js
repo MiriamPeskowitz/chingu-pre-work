@@ -7,9 +7,11 @@ import '../../App.css';
 const Footer = () => {
   return (
     <div className="footer-container">
-      <FooterNavbar /><br />
-      <FooterSocialShare />
-      <FooterCopyrightText />
+      <div className="sections-holder">
+        <FooterNavbar /><br />
+        <FooterSocialShare />
+        <FooterCopyrightText />
+      </div>
     </div>
   )
 }
